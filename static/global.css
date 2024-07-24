@@ -8,6 +8,18 @@ html body {
     margin: 0 20% 0 20%;
 }
 
+@media screen and (orientation: portrait) and (min-device-aspect-ratio: 1/1) {
+    html body {
+        margin: 0 5% 5% 5%;
+    }
+}
+
+@media screen and (orientation: portrait) and (max-device-aspect-ratio: 1/1) {
+    html body {
+        margin: 0 5% 5% 5%;
+    }
+}
+
 a {
     color: inherit;
     text-decoration: none;
